@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad26d17fb1203994c98c427a493ab912, type: 3}
+  m_Name: PumpUp
+  m_EditorClassIdentifier: 
+  name: PumpUp
+  stamiaCost: 0
+  description: Increase walk, sprint, climb, push/pull speed and jump force. No extra
+    stamina cost.
+  artwork: {fileID: 21300000, guid: b4960a5022f03094a85fb9f54506d533, type: 3}
+  operateType: 1
+  disturbedBehavior: 0
+  cancelType: 1
+  pumpUpMovementConfig: {fileID: 11400000, guid: deffcf1b27eefbf4a9f0416d801966a5, type: 2}
+  defaultMovementConfig: {fileID: 11400000, guid: 175e042f4ded1624b98e9543ea72d3df, type: 2}
+  pumpUpTime: 8
